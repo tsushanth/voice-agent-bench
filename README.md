@@ -68,7 +68,20 @@ REPRODUCE.md         — exact commands to re-run the benchmark yourself
 
 ---
 
-## Latest results (2026-09-26)
+## Latest results (2026-09-28)
+
+**Tiered evaluation:** Calldesk vs ThunderPhone Spark ($0.02/min) vs Bolt ($0.05/min)
+
+| Tier | Calldesk | ThunderPhone | Rounds | Notes |
+|------|----------|--------------|--------|-------|
+| Spark | 4 | 1 | 5/5 | Calldesk won 4 of 5 after flow fixes |
+| Bolt | 1 | 2 | 3/5 | 2 rounds excluded (empty transcript, crash) |
+
+**Aggregate (8 clean rounds): Calldesk 5 – ThunderPhone 3**
+
+See `TIERED-RESULTS-2026-09-28.md` for round-by-round breakdowns, latency data, and configuration details.
+
+### Prior results (2026-09-26)
 
 | Round | Winner   | Calldesk turns | ThunderPhone turns | Key differentiator                                  |
 |-------|----------|---------------:|-------------------:|------------------------------------------------------|
